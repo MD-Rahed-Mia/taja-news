@@ -20,7 +20,7 @@ const Search = () => {
           paddingBottom: 50,
         }}
         contentContainerStyle={{
-          paddingBottom: 50,
+          paddingBottom: 100,
         }}
       >
         <View className="p-4 flex items-center justify-evenly flex-wrap w-full gap-2 flex-row">

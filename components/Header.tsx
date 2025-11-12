@@ -1,5 +1,6 @@
 import Colors from "@/constants/color";
-import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
+import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
+import { router } from "expo-router";
 import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -9,7 +10,7 @@ const Header = () => {
       <Text className="text-2xl font-bold" style={{ color: Colors.primary }}>
         Taja News
       </Text>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => router.push("/(main)/profile")}>
         <FontAwesome5 name="user" size={24} color="black" />
       </TouchableOpacity>
     </View>

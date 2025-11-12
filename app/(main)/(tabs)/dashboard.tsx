@@ -34,7 +34,7 @@ const Dashboard = () => {
             <NewsCard news={breakingNews} />
           </View>
           <TouchableOpacity
-            className="w-3/5 mx-auto py-3 px-4 text-center mt-4 rounded-full"
+            className="w-3/5 mx-auto py-3 px-4 mt-8 text-center  rounded-full"
             style={{ backgroundColor: Colors.primary }}
           >
             <Text className="text-center text-white">আরও পড়ুন</Text>
